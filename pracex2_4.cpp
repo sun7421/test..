@@ -47,8 +47,10 @@ float av(float x,float y)
 				 float a=sqrt(x*y);
 				return a;
 			}
-		else{ float k = av(x,(x+y)/2)+av(y,(x+y)/2);
+		else{
+		float k = av(x,(x+y)/2)+av(y,(x+y)/2);
 			return k;
 		}
 		
 	
+}
